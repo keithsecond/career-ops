@@ -21,6 +21,10 @@
 15. Execute: `node generate-pdf.mjs /tmp/cv-{candidate}-{company}.html output/cv-{candidate}-{company}-{YYYY-MM-DD}.pdf --format={letter|a4}`
 16. Report: PDF path, number of pages, keyword coverage %
 
+## Secciones condicionales
+
+- **Education:** Si `cv.md` no tiene sección de educación formal (ver `_profile.md` para confirmación), omitir el bloque Education completo del HTML -- no generar `<div class="section">` ni el header "Education" vacío. No inventar ni rellenar con texto de relleno ("equivalent experience", etc.) salvo que el usuario lo pida explícitamente.
+
 ## Reglas ATS (parseo limpio)
 
 - Single-column layout (no sidebars, no parallel columns)

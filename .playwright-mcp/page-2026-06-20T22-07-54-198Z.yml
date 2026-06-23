@@ -1,0 +1,18 @@
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e6]
+  - generic [ref=e8]:
+    - generic [ref=e14]:
+      - img "Organization banner logo" [ref=e17]
+      - main [ref=e18]:
+        - generic [ref=e21]:
+          - heading "Trying to sign you in" [level=1] [ref=e22]
+          - progressbar "Please wait" [ref=e23]
+          - link "Cancel" [active] [ref=e29] [cursor=pointer]:
+            - /url: "#"
+    - contentinfo [ref=e30]:
+      - generic [ref=e31]:
+        - link "Terms of use" [ref=e32] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e33] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e34] [cursor=pointer]: ...
