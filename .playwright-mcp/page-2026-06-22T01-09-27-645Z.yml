@@ -1,0 +1,340 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - navigation "main navigation" [ref=e8]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#main-container"
+      - link "Company logo" [ref=e10] [cursor=pointer]:
+        - /url: "#"
+        - img "Company logo" [ref=e11]
+      - generic [ref=e12]:
+        - link "Join Talent Network" [ref=e13] [cursor=pointer]:
+          - /url: /careers/join?domain=symetra.com&hl=en
+        - button "Candidate Login" [ref=e14] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - navigation "Application sections" [ref=e21]:
+            - list [ref=e24]:
+              - listitem [ref=e25]:
+                - button "Resume" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e33]: Resume
+              - listitem [ref=e34]:
+                - button "Contact Information" [ref=e38] [cursor=pointer]:
+                  - generic [ref=e42]: Contact Information
+              - listitem [ref=e43]:
+                - button "Remote Network Standards Policy" [ref=e47] [cursor=pointer]:
+                  - generic [ref=e51]: Remote Network Standards Policy
+              - listitem [ref=e52]:
+                - button "Preliminary Questions" [ref=e56] [cursor=pointer]:
+                  - generic [ref=e60]: Preliminary Questions
+              - listitem [ref=e61]:
+                - button "Equal Employment Opportunity Information" [ref=e65] [cursor=pointer]:
+                  - generic [ref=e69]: Equal Employment Opportunity Information
+              - listitem [ref=e70]:
+                - button "Electronic Signature Notice and Consent" [ref=e74] [cursor=pointer]:
+                  - generic [ref=e78]: Electronic Signature Notice and Consent
+              - listitem [ref=e79]:
+                - button "Applicant’s Acknowledgement and Electronic Signature" [ref=e83] [cursor=pointer]:
+                  - generic [ref=e87]: Applicant’s Acknowledgement and Electronic Signature
+          - generic [ref=e88]:
+            - generic [ref=e89]: Required fields are marked with *
+            - generic [ref=e91]:
+              - heading "Application Form" [level=1] [ref=e92]
+              - generic [ref=e96]:
+                - text: You may have seen in the media that job posting scams are on the rise. Symetra is committed to creating a positive candidate experience without putting you at risk. As such, applications for our open job postings are only collected through our secure career site and we are transparent about our
+                - link "hiring process" [ref=e97] [cursor=pointer]:
+                  - /url: https://www.symetra.com/careers/symetra-careers/hiring-process/
+                - text: . We also do not send funds to candidates or request funds from candidates, via check or otherwise. If you experience something different than what we outline in our process or would like to report suspicious activity, please
+                - link "contact us" [ref=e98] [cursor=pointer]:
+                  - /url: mailto:rpteth@symetra.com
+                - text: .
+              - heading [level=1] [ref=e99]: Application for
+              - generic [ref=e105]:
+                - generic [ref=e106]: Software Development Engineer in Test
+                - generic [ref=e108]: USA
+              - note [ref=e109]:
+                - generic [ref=e110]:
+                  - strong [ref=e111]: Required fields are indicated with
+                  - generic [ref=e112]: "*"
+            - 'region "Form section: Resume" [ref=e113]':
+              - 'heading "Form section: Resume" [level=2] [ref=e117]': Resume
+              - group "Resume" [ref=e120]:
+                - generic [ref=e121]: Resume
+                - generic [ref=e124]:
+                  - generic [ref=e127]: Upload your resume
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: "Accepted file format: .pdf, .doc, .docx, .txt"
+                    - status [ref=e131]
+                    - generic [ref=e135] [cursor=pointer]:
+                      - generic [ref=e139]:
+                        - generic [ref=e140]: Drag & drop file
+                        - generic [ref=e141]: .pdf, .doc, .docx, .txt
+                      - button "Select file - Upload resume" [ref=e142]:
+                        - generic [ref=e146]: Select file
+            - 'region "Form section: Contact Information" [ref=e149]':
+              - 'heading "Form section: Contact Information" [level=2] [ref=e153]': Contact Information
+              - group "Contact Information" [ref=e156]:
+                - generic [ref=e157]: Contact Information
+                - generic [ref=e158]:
+                  - generic [ref=e160]:
+                    - generic [ref=e163]: First Name
+                    - textbox "First Name" [ref=e168]:
+                      - /placeholder: ""
+                  - generic [ref=e171]:
+                    - generic [ref=e174]: Last Name
+                    - textbox "Last Name" [ref=e179]:
+                      - /placeholder: ""
+                  - generic [ref=e182]:
+                    - generic [ref=e185]: Email
+                    - textbox "Email" [ref=e190]:
+                      - /placeholder: ""
+                  - group [ref=e194]:
+                    - generic [ref=e197]: Phone
+                    - generic [ref=e199]:
+                      - generic [ref=e200]:
+                        - status [ref=e201]
+                        - generic [ref=e206] [cursor=pointer]:
+                          - combobox "Select country code" [ref=e207]
+                          - button [ref=e208]
+                      - textbox "Phone Number" [ref=e214]
+            - 'region "Form section: Remote Network Standards Policy" [ref=e217]':
+              - 'heading "Form section: Remote Network Standards Policy" [level=2] [ref=e221]': Remote Network Standards Policy
+              - group "Remote Network Standards Policy" [ref=e224]:
+                - generic [ref=e225]: Remote Network Standards Policy
+                - generic [ref=e228]:
+                  - generic [ref=e232]:
+                    - paragraph [ref=e233]: "As a remote-first organization committed to providing a positive experience for both employees and customers, Symetra has the following standards for employees’ internet connection:"
+                    - list [ref=e234]:
+                      - listitem [ref=e235]:
+                        - strong [ref=e236]: "Minimum Internet Speed:"
+                        - text: 100 Mbps download and 20 Mbps upload, in alignment with the FCC's definition of "broadband."
+                      - listitem [ref=e237]:
+                        - strong [ref=e238]: "Internet Type:"
+                        - text: Fiber, Cable (e.g., Comcast, Spectrum), or DSL.
+                      - listitem [ref=e239]:
+                        - strong [ref=e240]: "Not Permissible:"
+                        - text: Satellite (e.g., Starlink), cellular broadband (hotspot or otherwise), any other wireless technology, or wired dial-up.
+                    - paragraph [ref=e241]:
+                      - link "Test your internet speed" [ref=e242] [cursor=pointer]:
+                        - /url: https://www.speedtest.net/
+                        - strong [ref=e243]: Test your internet speed
+                      - text: and confirm your internet connection meets or exceeds Symetra’s standards as outlined above. You must meet the requirement to apply.
+                  - generic [ref=e245]:
+                    - status [ref=e246]
+                    - generic [ref=e251] [cursor=pointer]:
+                      - 'combobox "As a remote-first organization committed to providing a positive experience for both employees and customers, Symetra has the following standards for employees’ internet connection: Minimum Internet Speed: 100 Mbps download and 20 Mbps upload, in alignment with the FCC''s definition of \"broadband.\" Internet Type: Fiber, Cable (e.g., Comcast, Spectrum), or DSL. Not Permissible: Satellite (e.g., Starlink), cellular broadband (hotspot or otherwise), any other wireless technology, or wired dial-up. Test your internet speed and confirm your internet connection meets or exceeds Symetra’s standards as outlined above. You must meet the requirement to apply." [ref=e252]'
+                      - button [ref=e253]
+            - 'region "Form section: Preliminary Questions" [ref=e258]':
+              - 'heading "Form section: Preliminary Questions" [level=2] [ref=e262]': Preliminary Questions
+              - group "Preliminary Questions" [ref=e265]:
+                - generic [ref=e266]: Preliminary Questions
+                - generic [ref=e267]:
+                  - generic [ref=e269]:
+                    - generic [ref=e272]: Are you at least 18 years of age? - You must be at least 18 years of age to apply.
+                    - generic [ref=e274]:
+                      - status [ref=e275]
+                      - generic [ref=e280] [cursor=pointer]:
+                        - combobox "Are you at least 18 years of age? - You must be at least 18 years of age to apply." [ref=e281]
+                        - button [ref=e282]
+                  - generic [ref=e287]:
+                    - generic [ref=e290]: Are you a current employee of Symetra? - (If you are a current contractor or temporary employee through a third party staffing agency, please select 'No')
+                    - generic [ref=e292]:
+                      - status [ref=e293]
+                      - generic [ref=e298] [cursor=pointer]:
+                        - combobox "Are you a current employee of Symetra? - (If you are a current contractor or temporary employee through a third party staffing agency, please select 'No')" [ref=e299]
+                        - button [ref=e300]
+                  - generic [ref=e305]:
+                    - generic [ref=e308]: Middle Name
+                    - textbox "Middle Name" [ref=e313]:
+                      - /placeholder: ""
+                  - generic [ref=e316]:
+                    - generic [ref=e319]: Address 1
+                    - textbox "Address 1" [ref=e324]:
+                      - /placeholder: ""
+                  - generic [ref=e327]:
+                    - generic [ref=e330]: Address 2
+                    - textbox "Address 2" [ref=e335]:
+                      - /placeholder: ""
+                  - generic [ref=e338]:
+                    - generic [ref=e341]: City
+                    - textbox "City" [ref=e346]:
+                      - /placeholder: ""
+                  - generic [ref=e349]:
+                    - generic [ref=e352]: Country
+                    - generic [ref=e354]:
+                      - status [ref=e355]
+                      - generic [ref=e360] [cursor=pointer]:
+                        - combobox "Country" [ref=e361]
+                        - button [ref=e362]
+                  - generic [ref=e372]: "Country - Please note: This job cannot be performed, in whole or in part, from another country. Performing the work from a location within the United States is a job requirement."
+                  - generic [ref=e374]:
+                    - generic [ref=e377]: Zip/Post Code
+                    - textbox "Zip/Post Code" [ref=e382]:
+                      - /placeholder: ""
+                  - generic [ref=e385]:
+                    - generic [ref=e388]: How did you hear about Symetra?
+                    - generic [ref=e390]:
+                      - status [ref=e391]
+                      - generic [ref=e396] [cursor=pointer]:
+                        - combobox "How did you hear about Symetra?" [ref=e397]
+                        - button [ref=e398]
+                  - generic [ref=e403]:
+                    - generic [ref=e406]: Are you able to perform all the essential functions of the job for which you are applying, with or without reasonable accommodation?
+                    - generic [ref=e408]:
+                      - status [ref=e409]
+                      - generic [ref=e414] [cursor=pointer]:
+                        - combobox "Are you able to perform all the essential functions of the job for which you are applying, with or without reasonable accommodation?" [ref=e415]
+                        - button [ref=e416]
+                  - generic [ref=e421]:
+                    - generic [ref=e424]: If hired, can you provide proof of your legal right to work in the United States for any employer without sponsorship? (Note sponsorship includes F-1, H-1B, J-1, TN, or green card in process.)
+                    - generic [ref=e426]:
+                      - status [ref=e427]
+                      - generic [ref=e432] [cursor=pointer]:
+                        - combobox "If hired, can you provide proof of your legal right to work in the United States for any employer without sponsorship? (Note sponsorship includes F-1, H-1B, J-1, TN, or green card in process.)" [ref=e433]
+                        - button [ref=e434]
+                  - generic [ref=e439]:
+                    - generic [ref=e442]: Have you ever been employed by Symetra?
+                    - generic [ref=e444]:
+                      - status [ref=e445]
+                      - generic [ref=e450] [cursor=pointer]:
+                        - combobox "Have you ever been employed by Symetra?" [ref=e451]
+                        - button [ref=e452]
+                  - generic [ref=e457]:
+                    - generic [ref=e460]: Do you have any family members employed by Symetra? (Family member includes a spouse/domestic partner, sibling, parent, child, grandparent, grandchild, in-law, significant other, or any other person who you are related to or who is a member of your household)
+                    - generic [ref=e462]:
+                      - status [ref=e463]
+                      - generic [ref=e468] [cursor=pointer]:
+                        - combobox "Do you have any family members employed by Symetra? (Family member includes a spouse/domestic partner, sibling, parent, child, grandparent, grandchild, in-law, significant other, or any other person who you are related to or who is a member of your household)" [ref=e469]
+                        - button [ref=e470]
+                  - generic [ref=e475]:
+                    - generic [ref=e478]: Have you ever worked for, or been affiliated with, a securities broker-dealer?
+                    - generic [ref=e480]:
+                      - status [ref=e481]
+                      - generic [ref=e486] [cursor=pointer]:
+                        - combobox "Have you ever worked for, or been affiliated with, a securities broker-dealer?" [ref=e487]
+                        - button [ref=e488]
+                  - generic [ref=e493]:
+                    - generic [ref=e496]: Are you subject to any legal or contractual obligation that would or could prevent you from undertaking or performing the functions of this position?
+                    - generic [ref=e498]:
+                      - status [ref=e499]
+                      - generic [ref=e504] [cursor=pointer]:
+                        - combobox "Are you subject to any legal or contractual obligation that would or could prevent you from undertaking or performing the functions of this position?" [ref=e505]
+                        - button [ref=e506]
+                  - generic [ref=e511]:
+                    - generic [ref=e514]: Do you currently hold any active securities licenses?
+                    - generic [ref=e516]:
+                      - status [ref=e517]
+                      - generic [ref=e522] [cursor=pointer]:
+                        - combobox "Do you currently hold any active securities licenses?" [ref=e523]
+                        - button [ref=e524]
+                  - generic [ref=e529]:
+                    - generic [ref=e533]:
+                      - text: "Symetra is committed to fair and secure hiring practices. For all roles, candidates will be required (after the initial phone screen) to be on video for all interviews. Symetra will take affirmative steps at key points in the process to verify that a candidate is not seeking employment fraudulently, e.g., through use of a false identity. Failure to comply with identity verification procedures may result in:"
+                      - list [ref=e534]:
+                        - listitem [ref=e535]: Disqualification from the recruitment process
+                        - listitem [ref=e536]: Withdrawal of a job offer
+                        - listitem [ref=e537]: Termination of employment and other criminal and/or civil remedies, if fraud is discovered
+                        - listitem [ref=e538]
+                      - paragraph [ref=e539]: I acknowledge the above
+                    - generic [ref=e541]:
+                      - status [ref=e542]
+                      - generic [ref=e547] [cursor=pointer]:
+                        - 'combobox "Symetra is committed to fair and secure hiring practices. For all roles, candidates will be required (after the initial phone screen) to be on video for all interviews. Symetra will take affirmative steps at key points in the process to verify that a candidate is not seeking employment fraudulently, e.g., through use of a false identity. Failure to comply with identity verification procedures may result in: Disqualification from the recruitment process Withdrawal of a job offer Termination of employment and other criminal and/or civil remedies, if fraud is discovered I acknowledge the above" [ref=e548]'
+                        - button [ref=e549]
+                  - generic [ref=e554]:
+                    - generic [ref=e557]: I certify that all information I have provided to Symetra in support of my application for employment is true and accurate.
+                    - generic [ref=e559]:
+                      - status [ref=e560]
+                      - generic [ref=e565] [cursor=pointer]:
+                        - combobox "I certify that all information I have provided to Symetra in support of my application for employment is true and accurate." [ref=e566]
+                        - button [ref=e567]
+            - 'region "Form section: Equal Employment Opportunity Information" [ref=e572]':
+              - 'heading "Form section: Equal Employment Opportunity Information" [level=2] [ref=e576]': Equal Employment Opportunity Information
+              - group "Equal Employment Opportunity Information" [ref=e579]:
+                - generic [ref=e580]: Equal Employment Opportunity Information
+                - generic [ref=e581]:
+                  - generic [ref=e588]: Providing information as to ethnicity/race is voluntary; if you do not wish to provide information, please select ‘decline to identify’ in the drop-down below. We ask you to supply information so that we can generate government-mandated statistics. Thank you for your help!
+                  - generic [ref=e590]:
+                    - generic [ref=e593]: EEOC Ethnicity/Race
+                    - generic [ref=e595]:
+                      - status [ref=e596]
+                      - generic [ref=e601] [cursor=pointer]:
+                        - combobox "EEOC Ethnicity/Race" [ref=e602]
+                        - button [ref=e603]
+                  - generic [ref=e610]:
+                    - generic [ref=e613]:
+                      - text: "Voluntary Self-Identification of Race/Ethnicity:"
+                      - list [ref=e614]:
+                        - listitem [ref=e615]: "Hispanic or Latino: A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race."
+                        - listitem [ref=e616]: "White: A person having origins in any of the original peoples of Europe, the Middle East, or North Africa."
+                        - listitem [ref=e617]: "Black or African American: A person having origins in any of the Black racial groups of Africa."
+                        - listitem [ref=e618]: "Asian: A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam."
+                        - listitem [ref=e619]: "Native Hawaiian or Other Pacific Islander: A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands."
+                        - listitem [ref=e620]: "American Indian or Alaska Native: A person having origins in any of the original peoples of North and South America (including Central America) and who maintains tribal affiliation or community attachment."
+                        - listitem [ref=e621]: "Two or More Races: A person who identifies with more than one of the above races."
+                        - listitem [ref=e622]: Other
+                        - listitem [ref=e623]: Decline to identify
+                    - button "Read more" [ref=e625] [cursor=pointer]:
+                      - generic [ref=e626]: Read more
+                  - generic [ref=e628]:
+                    - generic [ref=e631]: EEOC Gender
+                    - generic [ref=e633]:
+                      - status [ref=e634]
+                      - generic [ref=e639] [cursor=pointer]:
+                        - combobox "EEOC Gender" [ref=e640]
+                        - button [ref=e641]
+                  - generic [ref=e648]:
+                    - generic [ref=e651]: This Company is an Equal Opportunity Employer, and does not discriminate on the basis of race, gender, ethnicity, religion, national origin, age, disability, veteran status, or on any other basis prohibited by law. Any information provided on race, ethnicity, and/or gender, will not be used in making any employment decisions. Providing this information is strictly voluntary, and you will not be subjected to any adverse action or treatment if you choose not to provide this information. If you do not choose to answer these questions, we ask that you select Decline to Identify for each question. Thank you for your voluntary cooperation.
+                    - button "Read more" [ref=e653] [cursor=pointer]:
+                      - generic [ref=e654]: Read more
+            - 'region "Form section: Electronic Signature Notice and Consent" [ref=e656]':
+              - 'heading "Form section: Electronic Signature Notice and Consent" [level=2] [ref=e660]': Electronic Signature Notice and Consent
+              - group "Electronic Signature Notice and Consent" [ref=e663]:
+                - generic [ref=e664]: Electronic Signature Notice and Consent
+                - generic [ref=e665]:
+                  - generic [ref=e669]:
+                    - generic [ref=e672]:
+                      - paragraph [ref=e673]: This notice is intended to provide you with important information required by the Electronic Signatures in Global and National Commerce Act (E-Sign Act). By checking the box below, you consent to submit your employment application and all related forms, documents and information electronically. You further consent to conduct any matters related to the recruiting, application, background check and/or onboarding process electronically. Typing your name in the textbox under or on a form, clicking on 'Submit,' or checking a box to indicate agreement will constitute your electronic signature.
+                      - paragraph [ref=e674]: You have the right to withdraw your consent to receive disclosures and submit information electronically. If you choose to withdraw your consent, the application process will be terminated. You may withdraw your consent by contacting the Company. It is your responsibility to update the Company regarding any changes to your e-mail address or other contact information.
+                    - button "Read more" [ref=e676] [cursor=pointer]:
+                      - generic [ref=e677]: Read more
+                  - generic [ref=e679]:
+                    - generic [ref=e682]: I agree to the above
+                    - generic "I agree to the above" [ref=e684]:
+                      - generic [ref=e685]:
+                        - checkbox "Agree" [ref=e686] [cursor=pointer]
+                        - generic [ref=e689]: Agree
+            - 'region "Form section: Applicant’s Acknowledgement and Electronic Signature" [ref=e692]':
+              - 'heading "Form section: Applicant’s Acknowledgement and Electronic Signature" [level=2] [ref=e696]': Applicant’s Acknowledgement and Electronic Signature
+              - group "Applicant’s Acknowledgement and Electronic Signature" [ref=e699]:
+                - generic [ref=e700]: Applicant’s Acknowledgement and Electronic Signature
+                - generic [ref=e701]:
+                  - generic [ref=e705]:
+                    - generic [ref=e708]:
+                      - paragraph [ref=e709]: Symetra is an Equal Opportunity Employer committed to employing a diverse workforce. Your responses to the questions in this form will be treated in compliance with the law.
+                      - paragraph [ref=e710]: I certify that the information I have provided in this application, and in my attached resume and/or other documents, if applicable, is true and complete. I understand that any failure to provide complete information or any misrepresentation in the information I provide, whether in this application or otherwise, may lead to Symetra' s refusal to hire me or to the termination of my employment. I hereby waive any and all claims against Symetra and any other person or public or private sources and bureaus who provides information in response to Symetra' s request, and release them from any liability to me arising from Symetra' s request.
+                      - paragraph [ref=e711]: By completing this application, I acknowledge my intent to seek employment with Symetra. If I accept a position offered by Symetra, I understand that the offer will not be in the form of an employment contract or have a guarantee of minimum length of employment. Further, I understand that my employment at Symetra will be 'at will', which means that either Symetra or I may terminate the employment relationship at any time and for any reason, with or without advance notice. Finally, I understand no representative or employee of Symetra has the authority to make any agreement contrary to the preceding sentence, or to alter the 'at will' employment relationship, unless that agreement is executed in writing by the president of the company. I have read and understand the above statement.
+                    - button "Read more" [ref=e713] [cursor=pointer]:
+                      - generic [ref=e714]: Read more
+                  - generic [ref=e716]:
+                    - generic [ref=e719]: I accept
+                    - textbox "I accept" [ref=e724]:
+                      - /placeholder: ""
+                  - generic [ref=e727]:
+                    - generic [ref=e730]: Date
+                    - generic [ref=e732]:
+                      - generic:
+                        - generic: Select date
+                      - combobox "Date" [ref=e734]: 21 Jun 2026
+            - generic [ref=e737]:
+              - checkbox "Save my answers for future applications" [checked] [ref=e738] [cursor=pointer]
+              - generic [ref=e741]: Save my answers for future applications
+        - generic [ref=e750]:
+          - button "Cancel" [ref=e753] [cursor=pointer]:
+            - generic [ref=e754]: Cancel
+          - button "Submit application" [ref=e756] [cursor=pointer]:
+            - generic [ref=e757]: Submit application
+  - iframe [ref=e760]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA
